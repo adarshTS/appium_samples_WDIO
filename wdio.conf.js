@@ -8,7 +8,7 @@ exports.config = {
     runner: 'local',
     hostname: 'localhost',
     path: '/',
-    port: 4724,
+    port: 4723,
     //
     // ==================
     // Specify Test Files
@@ -26,7 +26,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        'test/specs/mobileTests/myfirsttest.js'
+        'test/specs/**/*.js'
        
     ],
     // Patterns to exclude.

@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@percy/appium-app": "^1.2.1",
+    "@percy/cli": "^1.26.2",
     "@wdio/appium-service": "^8.12.3",
     "@wdio/browserstack-service": "^8.13.1",
     "@wdio/cli": "^8.12.3",

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="e2e Test" timestamp="2023-08-02T19:36:01" time="0.68" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="e2e Test"/>
+      <property name="capabilities" value="android.r5ct30zt6ek"/>
+      <property name="file" value="file://./test/specs/mobileTests/myfirsttest.js"/>
+    </properties>
+    <testcase classname="android.r5ct30zt6ek.e2e_Test" name="Open Categories" time="0.677">
+      <system-out><![CDATA[
+COMMAND: POST /session/6a82943cd14bb57ae27cedfe7d0e2c9a03cf7e1f/execute/sync - {"script":"browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: Open Categories\",\"level\":\"info\"}}","args":[]}
+RESULT: {"script":"browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: Open Categories\",\"level\":\"info\"}}","args":[]}
+COMMAND: POST /session/6a82943cd14bb57ae27cedfe7d0e2c9a03cf7e1f/element - {"using":"xpath","value":"//android.widget.Button[@content-desc=\"tabButton_categories\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.Button[@content-desc=\"tabButton_categories\"]"}
+COMMAND: POST /session/6a82943cd14bb57ae27cedfe7d0e2c9a03cf7e1f/element/6deb6f8d-ebc6-4070-a1d5-552b626b4257/click - {}
+RESULT: {}
+COMMAND: DELETE /session/6a82943cd14bb57ae27cedfe7d0e2c9a03cf7e1f - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>suites>
